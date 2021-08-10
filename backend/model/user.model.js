@@ -9,13 +9,13 @@ const userSchema = new Schema({
        trim: true,//white space at the end
        minlength: 3
        },
-    password: {
-      type: String,
-      unique: true,
-      required: true,
-      trim: true,//white space at the end
-      minlength: 3
-    }
+    // password: {
+    //   type: String,
+    //   unique: true,
+    //   required: true,
+    //   trim: true,//white space at the end
+    //   minlength: 3
+    // }
   },
    {
     timestamps: true,
